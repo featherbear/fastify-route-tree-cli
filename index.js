@@ -2,10 +2,10 @@
 
 require('sucrase/register')
 
-import path from 'path'
-import fs from 'fs'
-import Fastify from 'fastify'
-import fastifyRouteTree from 'fastify-route-tree'
+const path = require('path')
+const fs = require('fs')
+const Fastify = require('fastify')
+const fastifyRouteTree = require('fastify-route-tree')
 
 const outputFile = process.argv[2]
 const renderFile = process.argv[3]
