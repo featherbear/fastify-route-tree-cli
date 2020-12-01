@@ -20,7 +20,7 @@ if (!outputFile || !renderFile || routeFiles.length === 0) {
 
 let renderFunction
 try {
-  renderFunction = require(path.join(process.cwd(), renderFile))
+  renderFunction = require(fs.existsSync(renderFile) ? renderFile : path.join(process.cwd(), renderFile))
   renderFunction = renderFunction.default || renderFunction
 
   if (typeof renderFunction !== 'function') {
