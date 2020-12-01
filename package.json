@@ -1,0 +1,13 @@
+{
+  "name": "fastify-route-tree-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:featherbear/fastify-route-tree-cli.git",
+  "author": "Andrew Wong <andrew.j.wong@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.8.0",
+    "fastify-route-tree": "featherbear/fastify-route-tree",
+    "sucrase": "^3.16.0"
+  }
+}
