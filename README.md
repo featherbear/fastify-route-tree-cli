@@ -10,7 +10,7 @@
 npx featherbear/fastify-route-tree-cli <outputFile> <renderFunction> <routeFile1> <routeFile2> <...>'
 ```
 
-Example: `npx featherbear/fastify-route-tree-cli output.md renderHandler.js ./components/auth.js ./route/login.js`
+Example: `npx featherbear/fastify-route-tree-cli outputFile.txt renderHandler.js ./components/auth.js ./route/login.js`
 
 ---
 
